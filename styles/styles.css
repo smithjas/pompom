@@ -1,0 +1,53 @@
+/* Text Highlighter */
+
+.highlight{
+  background-color: #C4EFD0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Tooltip */
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #C4EFD0;
+    color: #111;
+    font-size: 15px;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    /* left: 100%; */
+    left:0px;
+    top:30px;
+    white-space: normal;
+    min-width: 250px;
+    opacity: 0;
+    border: 2px solid #7fa188;
+    border-radius: 4px;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
+}
+
+/* Popup */
+
+.img-container{
+  text-align: center;
+  width:300px;
+}
+
+.img-container > img{
+  width:150px;
+}
+
+.text-container{
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+}
