@@ -24,9 +24,9 @@
        "css": [ "styles/styles.css" ],
        "matches": ["https://*.atlassian.net/wiki/spaces*"],
        "js": [
-         "dictionary.js",
-         "mark.js",
-         "dictionaryHighlighter.js"
+         "js/dictionary.js",
+         "vendor/mark.js",
+         "js/dictionaryHighlighter.js"
        ]
      }
    ]
