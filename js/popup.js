@@ -6,6 +6,13 @@ chrome.storage.local.get('enabled', data => {
       enabled = !!data.enabled;
     }
     myButton.textContent = enabled ? 'Disable PomPom' : 'Enable PomPom';
+    if(enabled){
+      document.getElementById('toggle').classList.add("enabled");
+    }
+    else{
+      document.getElementById('toggle').classList.add("disabled");
+    }
+
 });
 
 myButton.onclick = () => {
