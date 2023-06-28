@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "mulishNormal";
+    src: url("fonts/mulish-normal.ttf");
+}
+
 /* Text Highlighter */
 
 .highlight{
@@ -48,6 +53,7 @@
 
 .text-container{
   text-align: center;
-  font-family: monospace;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
   font-size: 14px;
 }
