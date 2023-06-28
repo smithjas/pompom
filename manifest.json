@@ -29,5 +29,8 @@
          "js/dictionaryHighlighter.js"
        ]
      }
-   ]
+   ],
+   "permissions": [
+    "storage"
+  ]
  }

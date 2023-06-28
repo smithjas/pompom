@@ -57,3 +57,26 @@
   font-weight: 500;
   font-size: 14px;
 }
+
+
+/* button */
+
+button{
+  border: none;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.enabled{
+  background-color: #bf0000; /* Red */
+}
+
+.disabled {
+    background-color: #4CAF50; /* Green */
+}
