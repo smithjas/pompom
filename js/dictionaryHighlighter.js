@@ -9,7 +9,7 @@ chrome.storage.local.get('enabled', data => {
             "separateWordSearch": "true",
             "accuracy": {
                 "value": "exactly",
-                "limiters": [",", "."]
+                "limiters": [",", ".", "(", ")"]
             },
             "dataTitle": "🐧 "+simDictionary[i].definition,"exclude": [
               "h1","h2","h3","h4","h5"

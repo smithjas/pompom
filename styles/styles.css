@@ -71,12 +71,15 @@ button{
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
+  background-color: #FFF;
 }
 
 .enabled{
-  background-color: #bf0000; /* Red */
+  color: #bf0000;
+  border: 2px solid #bf0000; /* Red */
 }
 
 .disabled {
-    background-color: #4CAF50; /* Green */
+  color: #4CAF50;
+  border: 2px solid #4CAF50; /* Green */
 }
